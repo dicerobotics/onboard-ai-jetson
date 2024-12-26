@@ -27,10 +27,10 @@ with jtop() as jetson:
 ```
 
 3. Install Curl and VS Code
-4. ```shell
-   sudo apt-get update
-   sudo apt-get install curl
-   curl -L https://github.com/toolboc/vscode/releases/download/1.32.3/code-oss_1.32.3-arm64.deb -o code-oss_1.32.3-arm64.deb
-   sudo dpkg -i code-oss_1.32.3-arm64.deb
-   ```
+```shell
+sudo apt-get update
+sudo apt-get install curl
+curl -L https://github.com/toolboc/vscode/releases/download/1.32.3/code-oss_1.32.3-arm64.deb -o code-oss_1.32.3-arm64.deb
+sudo dpkg -i code-oss_1.32.3-arm64.deb
+```
    
