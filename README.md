@@ -12,8 +12,8 @@ Implement machine learning models on Jetson Xavier NX Developer Kit
 ```shell
 sudo apt-get update
 sudo apt upgrade
-sudo apt install pip
-sudo pip3 install -U jetson-stats
+sudo apt-get install python3-pip
+sudo -H pip3 install -U jetson-stats
 sudo jtop # run jetson-stats as a standalone application to assess system performance
 ```
 jetson-stats may also be integrated with the software as below
@@ -24,6 +24,11 @@ with jtop() as jetson:
     while jetson.ok():
         # Read tegra stats
         print(jetson.stats)
+```
+Check cameras
+```shell
+cheese #check webcam
+gst-launch-1.0 nvarguscamerasrc ! nvoverlaysink #Take signal from raspberry pi camera and overlay over the screen
 ```
 
 3. Install Curl and VS Code
