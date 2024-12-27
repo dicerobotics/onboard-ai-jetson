@@ -28,7 +28,7 @@ with jtop() as jetson:
 Check cameras
 ```shell
 cheese #check webcam
-gst-launch-1.0 nvarguscamerasrc ! nvoverlaysink #Take signal from raspberry pi camera and overlay over the screen
+gst-launch-1.0 nvarguscamerasrc ! nv3dsink   #Take signal from raspberry pi camera and overlay over the screen
 ```
 
 3. Install Curl and VS Code
