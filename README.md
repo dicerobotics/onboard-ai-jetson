@@ -38,4 +38,26 @@ sudo apt-get install curl
 curl -L https://github.com/toolboc/vscode/releases/download/1.32.3/code-oss_1.32.3-arm64.deb -o code-oss_1.32.3-arm64.deb
 sudo dpkg -i code-oss_1.32.3-arm64.deb
 ```
+4. Install opencv, numpy, and dependencies
+```shell
+sudo apt-get update
+# sudo apt-get install -y cmake git pkg-config #install if required
+sudo apt-get install -y build-essential libgtk2.0-dev libavformat-dev libswscale-dev
+# sudo apt-get install -y libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
+# sudo apt-get install -y python3.8-dev python-dev python-numpy python3-numpy
+# sudo apt-get install -y libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev
+sudo apt-get install -y libv4l-dev v4l-utils qv4l2 v4l2ucp
+sudo apt-get install -y curl
+
+mkdir folder
+cd folder
+curl -L https://github.com/opencv/opencv/archive/4.6.0.zip -o opencv-4.6.0.zip
+curl -L https://github.com/opencv/opencv_contrib/archive/4.6.0.zip -o opencv_contrib-4.6.0.zip
+
+unzip opencv-4.6.0.zip
+unzip opencv_contrib-4.6.0.zip
+rm opencv-4.6.0.zip opencv_contrib-4.6.0.zip
+cd opencv-4.6.0/
+```
+
    
