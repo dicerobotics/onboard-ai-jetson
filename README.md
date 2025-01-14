@@ -2,7 +2,7 @@
 Implement machine learning models on Jetson Xavier NX Developer Kit
 
 ## Hardware
-1. Nvidia Jetson Xavier NX Development Kit (with SD Card or M.2 NVMe SSD)
+1. [Nvidia Jetson Xavier NX Development Kit](https://amzn.to/2ZHWoJB) (with [SD Card](https://amzn.to/2Ktf8nT) or [M.2 NVMe SSD](https://amzn.to/3btqbYN))
 2. [Raspberry Pi Camera Module V2](https://amzn.to/31iu5Cp) with associated CSI cables (x2)
 3. [Logitech C920 WEB cam](https://amzn.to/2H4dPd0)
 4. [Arducam Pan Tilt Platform for Pi Camera](https://amzn.to/2YtWCTy) (x2)
