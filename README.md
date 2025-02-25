@@ -62,6 +62,13 @@ sudo dpkg -i code-oss_1.32.3-arm64.deb
 | Disk          | 116 GB        | 17.7 GB       |
 | Power Mode    | 20 W, 6-Core  |               |
 
+Running Hardware
+| Hardware                | Specs.                                                                                 |
+| ----------------------- | ---------------------------------------------------------------------------------------|
+| Nvidia Jetson Xavier NX | 384 CUDA Cores, 48 Tensor Cores, 3 power modes (10W-800MHz, 15W-1100MHz, 20W-1100MHz) -|
+| PiCAM v2.1              | Sony IMX219 8-MP sensor, Supports 1080p30, 720p60, and VGA90. -------------------------|
+|C920 HD Pro Webcam       | 78 degree FoV, Supports 1080p30 - 720p30, USB Port-A connectivity ---------------------|
+
 ## Progress
 Task completed:
 1. Jetpack Configuration with software setup.
