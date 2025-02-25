@@ -2,12 +2,20 @@
 Implement machine learning models on Jetson Xavier NX Developer Kit
 
 ## Hardware
-1. [Nvidia Jetson Xavier NX Development Kit](https://amzn.to/2ZHWoJB) (with [SD Card](https://amzn.to/2Ktf8nT) or [M.2 NVMe SSD](https://amzn.to/3btqbYN))
-2. [Raspberry Pi Camera Module V2](https://amzn.to/31iu5Cp) with associated CSI cables (x2)
-3. [Logitech C920 WEB cam](https://amzn.to/2H4dPd0)
-4. [Arducam Pan Tilt Platform for Pi Camera](https://amzn.to/2YtWCTy) (x2)
-5. [Simple low-cost power adapter](https://amzn.to/3f4CLPN)
-6. 
+1. Single Board Computer: [Nvidia Jetson Xavier NX Development Kit](https://amzn.to/2ZHWoJB)
+2. Board: OpenCR 1.0 low level control board
+3. Memory: ([SD Card](https://amzn.to/2Ktf8nT) or [M.2 NVMe SSD](https://amzn.to/3btqbYN)
+4. Sensor: [Raspberry Pi Camera Module V2](https://amzn.to/31iu5Cp) with associated CSI cables (x2)
+5. Sensor: [Logitech C920 WEB cam](https://amzn.to/2H4dPd0)
+6. Senosr: LIDAR LDS-01 or LDS-02
+7. Actuator: DYNAMIXEL (XM430-W210-T) x2
+8. Remote Controller: BT-410 Set (Bluetooth 4,BLE) and RC-100B (Remote Controller)
+9. Power: [Simple low-cost power adapter](https://amzn.to/3f4CLPN) or WMPS 12V5A DVE DSA-60PFE-12 12V~5A (output), A/C Cord,
+10. Power: LiPo battery 11.1V 1800mAh
+11. Power: LiPo Charger (Yuntong Intelligent Lithium Balance Charger) for 2S/3S Cells
+12. Cables: SBC power cable, Li-Po battery extension cable, Dynamixel to OpenCR cables, USB Cable, etc.
+13. Assembly: [Arducam Pan Tilt Platform for Pi Camera](https://amzn.to/2YtWCTy) (x2)
+14. Chasis: [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/features/).
 
 
 ## Software Setup
