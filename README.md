@@ -7,16 +7,19 @@ Implement machine learning models on Jetson Xavier NX Developer Kit
 3. Memory: SD Card or [M.2 NVMe SSD](https://amzn.to/3btqbYN)
 4. Sensor: Raspberry Pi Camera Module v2.1 with associated CSI cables (x2)
 5. Sensor: [Logitech C920 WEB cam](https://amzn.to/2H4dPd0)
-6. Senosr: 	360 Laser Distance Sensor LDS-02
-7. Actuator: DYNAMIXEL (XM430-W210-T) (x2)
-8. Actuator: HiTec HS-645MG (x2)
-9. Remote Controller: RC-100B + BT-410 Set (Bluetooth 4, BLE)
-10. Power: [Simple low-cost power adapter](https://amzn.to/3f4CLPN) or SMPS 12V5A DVE DSA-60PFE-12 12V~5A (output), A/C Cord
-11. Power: LiPo battery 11.1V 1800mAh
-12. Power: LiPo Charger (Yuntong Intelligent Lithium Balance Charger) for 2S/3S Cells
-13. Cables: SBC power cable, Li-Po battery extension cable, Dynamixel to OpenCR cables, USB Cable, etc.
-14. Assembly: Tilt Platform for Pi Camera (x2)
-15. Chasis: [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/features/)
+6. Senosr: 	360 Laser Distance Sensor LDS-02 with USB2LDS interface embedded board
+7. Sensor: Intel RealSense Depth Camera D435
+8. Actuator: DYNAMIXEL (XM430-W210-T) for wheels (x2) 
+9. Actuator: HiTec HS-645MG (x2) for camera Tilt/Pan assembly
+10. Actuator: Robotis 5DoF Open Manipulator (Dynamixel XM430-W350-T, 500grams payload, 46 rpm joint speed, 0.7 kg, TTL bus)
+11. Remote Controller: RC-100B + BT-410 Set (Bluetooth 4, BLE)
+12. Power: [Simple low-cost power adapter](https://amzn.to/3f4CLPN) or SMPS 12V5A DVE DSA-60PFE-12 12V~5A (output), A/C Cord
+13. Power: LiPo battery 11.1V 1800mAh
+14. Power: LiPo Charger (Yuntong Intelligent Lithium Balance Charger) for 2S/3S Cells
+15. Power: [U2D2](https://emanual.robotis.com/docs/en/parts/interface/u2d2_power_hub/) power hub board for manipulator
+16. Cables: SBC power cable, Li-Po battery extension cable, Dynamixel to OpenCR cables, USB Cable, etc.
+17. Assembly: Tilt Platform for Pi Camera (x2)
+18. Chasis: [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/features/)
 
 ![Hardware setup](https://github.com/user-attachments/assets/052fab94-2d74-434a-89f3-c9a757cf0646)
 
