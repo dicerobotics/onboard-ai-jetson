@@ -1,5 +1,6 @@
 # onboard-ai-jetson
 Implement machine learning models on Jetson Xavier NX Developer Kit
+Note: This project is temprarily halted because of personal commitments.
 
 ## Hardware
 1. Single Board Computer: [Nvidia Jetson Xavier NX Development Kit](https://amzn.to/2ZHWoJB) or Raspberry Pi
