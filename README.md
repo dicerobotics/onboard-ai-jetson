@@ -77,15 +77,14 @@ Running Hardware
 ## Operational Videos
 ### Manipulator commanding
 https://github.com/user-attachments/assets/94449342-15be-4c6c-90fd-a6d75797d7f9
-
 ### Manipulator target alignment
 https://github.com/user-attachments/assets/19cf6044-ba3b-4795-8b4d-693bf015cf75
-
 ### Platform's remote operation
+https://github.com/user-attachments/assets/1529cb57-b22e-4dbb-b87a-03b9ebc5477a
 ### Object Detection
+https://github.com/user-attachments/assets/649676e5-7fa3-48b6-96f8-d21fbfeb584a
 ### Point cloud data acquisition
-
-
+https://github.com/user-attachments/assets/52c2b7a0-fc49-47f6-b259-82c364f654a0
 
 ## Progress [Completed tasks: Phase 1 (1-5), Phase 2 (1-2), Phase 3 ()]
 
