@@ -18,7 +18,7 @@ Implement machine learning models on Jetson Xavier NX Developer Kit
 14. Assembly: [Arducam Pan Tilt Platform for Pi Camera](https://amzn.to/2YtWCTy) (x2)
 15. Chasis: [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/features/).
 
-![Hardware setup](https://github.com/user-attachments/assets/2f45619d-511b-4936-b762-db1839576a6d)
+![Hardware setup](https://github.com/user-attachments/assets/052fab94-2d74-434a-89f3-c9a757cf0646)
 
 ## Software Setup
 1. Use NVIDIA SDK Manager to flash Jetson with Ubuntu OS (Follow instructions in [Jetson Xavier NX Developer Kit User Guide](https://developer.nvidia.com/jetson-xavier-nx-developer-kit-user-guide) at [Jetson Download Center](https://developer.nvidia.com/embedded/downloads#?search=Developer%20Kit%20User%20Guide).
