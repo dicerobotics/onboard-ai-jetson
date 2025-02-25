@@ -73,27 +73,29 @@ Running Hardware
 
 ![image](https://github.com/user-attachments/assets/3a4b3718-9bb1-4fc7-a7be-9d7f36e76c38)
 
-## Progress
+## Progress [Completed tasks: Phase 1 (1-5), Phase 2 (1-2), Phase 3 ()]
+
 Phase 1:
 1. Jetpack Configuration with software setup.
 2. Configuration and running of Webcam (over USB port) with GPU accelerated support at Nvidia Jetson using Gstreamer framework.
 3. Configuration and running PiCAM v2.1 over CSI communication using Nvidia’s Multimedia API’s Gstreamer framework.
 4. Installed face-recognition and identification libraries onto Jetson Xavier GPUs.
-5. Implementation and testing of trained machine learning deep network on GPU – (Network has already been implemented and tested on known dataset for known images).
+5. Implementation and testing of trained machine learning deep network on GPU – (Network has been implemented and tested on known dataset for known images).
 6. Training custom dataset to recognized custom faces (will test with ASCL members) [Work in progress].
 
 Phase 2: Use Jetson boards to work with IMU’s, Servos, etc. and explore serial interfaces (UART, SPI, etc. ) to get ready for complete robotic system
-1. Connecting and controlling servos with GPIOs on Nvidia Jetson.
-2. Controlling dual Pan/Tilt cameras assembly with GPIOs and CSI communication with Nvidia Jetson GPU.
-3. Object detection and tracking with Camera/Server Tilt/Pan assembly.
-4. Extended above configuration for multi-camera, multi-servo, multi-object-tracking configurations.
-5. Installing and configuring general purpose IMU with Nvidia Jetson.
-6. Implementing complete software configuration using IMU, Servos, CSI cameras, webcams to use in object detection, tracking, and following applications.
+1. Connecting and controlling Dynamixel servos with OpenCR board.
+2. Connecting and controlling Remote Controller with OpenCR board.
+3. Connecting and controlling servos with GPIOs on Nvidia Jetson.
+4. Controlling dual Pan/Tilt cameras assembly with GPIOs and CSI communication with Nvidia Jetson GPU.
+5. Object detection and tracking with Camera/Server Tilt/Pan assembly.
+6. Extended above configuration for multi-camera, multi-servo, multi-object-tracking configurations.
+7. Installing and configuring general purpose IMU with Nvidia Jetson.
+8. Implementing complete software configuration using IMU, Servos, CSI cameras, webcams to use in object detection, tracking, and following applications.
 
 Phase 3: Update hardware and software for synchronous data readout from cameras and IMUs for better Visual Inertial Odometry (VIO) and Simultanous Localization and Mapping (SLAM) performance.
 1. Design and develop hardware architecture for synchronous sensor data readout.
 2. Test the performance of state-of-the-art VIO and SLAM models with synchronous data readout hardware using GPUs.
 3. If performance with GPUs is not satisfactory, consider changing SBC with FPGA SoCs (possible setups may include Xilinx/AMDs Kria or Microchip's PolarFire). Conceptual diagram provided below.
-
 ![sensor_readout_synch_arch](https://github.com/user-attachments/assets/5629f56f-1537-4591-8b5b-08236a07bab4)
 
