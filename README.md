@@ -1,5 +1,6 @@
 # onboard-ai-jetson
 Implement machine learning models on Jetson Xavier NX Developer Kit
+
 Note: This project is temprarily halted because of personal commitments.
 
 ## Hardware
