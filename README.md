@@ -1,5 +1,6 @@
 # onboard-ai-jetson
 This repository programs an Autonomous Mobile Robot (AMR) for educational purpose and implement on-board machine learning models using Nvidia Jetson NX Xavier to test in real-life scenarios.
+
 Note: This project is temporarily halted because of personal commitments.
 
 ## Hardware
