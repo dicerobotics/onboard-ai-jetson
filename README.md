@@ -52,5 +52,23 @@ curl -L https://github.com/toolboc/vscode/releases/download/1.32.3/code-oss_1.32
 sudo dpkg -i code-oss_1.32.3-arm64.deb
 ```
 
+## Performance
 
-   
+| Resource      | Availability  | Utilization   |
+| ------------- | ------------- | ------------- |
+| CPU-1 to CPU-6| 1.4 GHz each  | 98%           |
+| Memory        | 6.7 GB        | 5.9 GB        |
+| GPU           |               | 23%           |
+| Disk          | 116 GB        | 17.7 GB       |
+| Power Mode    | 20 W, 6-Core  |               |
+
+## Progress
+Task completed:
+1. Jetpack Configuration with software setup.
+2. Configuration and running of Webcam (over USB port) with GPU accelerated support at Nvidia Jetson using Gstreamer framework.
+3. Configuration and running PiCAM v2.1 over CSI communication using Nvidia’s Multimedia API’s Gstreamer framework.
+4. Installed face-recognition and identification libraries onto Jetson Xavier GPUs.
+5. Implementation and testing of trained machine learning deep network on GPU – (Network has already been implemented and tested on known dataset for known images).
+6. Training custom dataset to recognized custom faces (will test with ASCL members) [Work in progress].
+7. 
+
