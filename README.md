@@ -4,19 +4,19 @@ Implement machine learning models on Jetson Xavier NX Developer Kit
 ## Hardware
 1. Single Board Computer: [Nvidia Jetson Xavier NX Development Kit](https://amzn.to/2ZHWoJB)
 2. Board: [OpenCR 1.0](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_opencr1_0/) low level control board
-3. Memory: ([SD Card](https://amzn.to/2Ktf8nT) or [M.2 NVMe SSD](https://amzn.to/3btqbYN)
+3. Memory: SD Card or [M.2 NVMe SSD](https://amzn.to/3btqbYN)
 4. Sensor: Raspberry Pi Camera Module v2.1 with associated CSI cables (x2)
 5. Sensor: [Logitech C920 WEB cam](https://amzn.to/2H4dPd0)
 6. Senosr: 	360 Laser Distance Sensor LDS-02
-7. Actuator: DYNAMIXEL (XM430-W210-T) x2
-8. Actuator: HiTec HS-645MG x2
+7. Actuator: DYNAMIXEL (XM430-W210-T) (x2)
+8. Actuator: HiTec HS-645MG (x2)
 9. Remote Controller: RC-100B + BT-410 Set (Bluetooth 4, BLE)
-10. Power: [Simple low-cost power adapter](https://amzn.to/3f4CLPN) or SMPS 12V5A DVE DSA-60PFE-12 12V~5A (output), A/C Cord,
+10. Power: [Simple low-cost power adapter](https://amzn.to/3f4CLPN) or SMPS 12V5A DVE DSA-60PFE-12 12V~5A (output), A/C Cord
 11. Power: LiPo battery 11.1V 1800mAh
 12. Power: LiPo Charger (Yuntong Intelligent Lithium Balance Charger) for 2S/3S Cells
 13. Cables: SBC power cable, Li-Po battery extension cable, Dynamixel to OpenCR cables, USB Cable, etc.
-14. Assembly: [Arducam Pan Tilt Platform for Pi Camera](https://amzn.to/2YtWCTy) (x2)
-15. Chasis: [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/features/).
+14. Assembly: Tilt Platform for Pi Camera (x2)
+15. Chasis: [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/features/)
 
 ![Hardware setup](https://github.com/user-attachments/assets/052fab94-2d74-434a-89f3-c9a757cf0646)
 
