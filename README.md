@@ -2,7 +2,7 @@
 Implement machine learning models on Jetson Xavier NX Developer Kit
 
 ## Hardware
-1. Single Board Computer: [Nvidia Jetson Xavier NX Development Kit](https://amzn.to/2ZHWoJB)
+1. Single Board Computer: [Nvidia Jetson Xavier NX Development Kit](https://amzn.to/2ZHWoJB) or Raspberry Pi
 2. Board: [OpenCR 1.0](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_opencr1_0/) low level control board
 3. Memory: SD Card or [M.2 NVMe SSD](https://amzn.to/3btqbYN)
 4. Sensor: Raspberry Pi Camera Module v2.1 with associated CSI cables (x2)
