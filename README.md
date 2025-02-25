@@ -91,15 +91,16 @@ https://github.com/user-attachments/assets/649676e5-7fa3-48b6-96f8-d21fbfeb584a
 ### Point cloud data acquisition
 https://github.com/user-attachments/assets/52c2b7a0-fc49-47f6-b259-82c364f654a0
 
-## Progress [Completed tasks: Phase 1 (1-5), Phase 2 (1-2), Phase 3 ()]
+## Progress [Completed tasks: Phase 1 (1-6), Phase 2 (1-2), Phase 3 ()]
 
 Phase 1:
-1. Jetpack Configuration with software setup.
-2. Configuration and running of Webcam (over USB port) with GPU accelerated support at Nvidia Jetson using Gstreamer framework.
-3. Configuration and running PiCAM v2.1 over CSI communication using Nvidia’s Multimedia API’s Gstreamer framework.
-4. Installed face-recognition and identification libraries onto Jetson Xavier GPUs.
-5. Implementation and testing of trained machine learning deep network on GPU – (Network has been implemented and tested on known dataset for known images).
-6. Training custom dataset to recognized custom faces (will test with ASCL members) [Work in progress].
+1. Setup and run TurtleBot3 with the software provided with Robotis.
+2. Jetpack Configuration with software setup.
+3. Configuration and running of Webcam (over USB port) with GPU accelerated support at Nvidia Jetson using Gstreamer framework.
+4. Configuration and running PiCAM v2.1 over CSI communication using Nvidia’s Multimedia API’s Gstreamer framework.
+5. Installed face-recognition and identification libraries onto Jetson Xavier GPUs.
+6. Implementation and testing of trained machine learning deep network on GPU – (Network has been implemented and tested on known dataset for known images).
+7. Training custom dataset to recognized custom faces (will test with ASCL members) [Work in progress].
 
 Phase 2: Use Jetson boards to work with IMU’s, Servos, etc. and explore serial interfaces (UART, SPI, etc. ) to get ready for complete robotic system
 1. Connecting and controlling Dynamixel servos with OpenCR board.
